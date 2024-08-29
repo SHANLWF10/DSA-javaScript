@@ -64,4 +64,10 @@ let Stack = function () {
   };
 };
 
-Stack();
+let newStack = new Stack();
+
+// newStack.push(1);
+// console.log(newStack.peek());
+// console.log(newStack.pop());
+
+// NOTE: the code above can also be achived using javaScript Classes.
