@@ -2,7 +2,7 @@
 
 /* A set is also like an array. Unlike an array, sets does not contain duplicate values and are not arranged in a specific order (not sorted). */
 
-function MySet() {
+function mySet() {
   let collection = []; // our Set
 
   //  here we check for the element we are getting
@@ -35,6 +35,16 @@ function MySet() {
   };
 
   //   this method gives the size of our set
+  this.size = function () {
+    return collection.length;
+  };
 }
 
-// console.log(newSet);
+let newSet = new mySet();
+
+newSet.add(2);
+newSet.add("ship");
+// newSet.add("ship");/
+console.log(newSet.values());
+
+/* NOTE: Javacript has "sets" already built into it. The code is made from scratch.Just to understand how sets work behind the scene. */
