@@ -45,4 +45,4 @@ let q = new Queue();
 // q.dequeue();
 // q.print();
 
-/* NOTE: This roughly gives an idea on how queues work, this not an indepth version of a queue. */
+/* NOTE: This is not a priority queue. This roughly gives an idea on how queues work, this not an indepth version of a queue. */
