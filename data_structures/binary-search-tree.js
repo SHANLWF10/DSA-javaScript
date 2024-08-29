@@ -28,8 +28,7 @@ class BST {
       this.root = new Node(data);
       return;
     } else {
-      /* This function simply checks the nodes and adds items accordingly */
-
+      /* This recursive function simply checks the nodes and adds items accordingly */
       const searchTree = function (node) {
         if (data < node.data) {
           if (node.left === null) {
@@ -49,5 +48,5 @@ class BST {
       };
       return searchTree(node);
     }
-  };
+  }
 }
