@@ -10,7 +10,7 @@ function Queue() {
     console.log(collection);
   };
 
-  // This adds the first element to the queue
+  // This pushes the first element to the queue
   this.enqueue = function (element) {
     collection.push(element);
   };
@@ -38,7 +38,11 @@ function Queue() {
 
 let q = new Queue();
 
-q.enqueue("a");
-q.enqueue("b");
-q.enqueue("c");
-q.print();
+// q.enqueue("a");
+// q.enqueue("b");
+// q.enqueue("c");
+// q.print();
+// q.dequeue();
+// q.print();
+
+/* NOTE: This roughly gives an idea on how queues work, this not an indepth version of a queue. */
